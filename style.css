@@ -1,0 +1,19 @@
+body{background-color: aqua;}
+
+#calculator-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    width: 45vw;
+    height: 30vh;
+    gap: 0.2em;
+}
+
+#output {
+    background-color: white;
+    height: 5vh;
+    width: 45vw;
+    grid-column: 1/ -1;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
